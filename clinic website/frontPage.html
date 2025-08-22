@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beauty Treatments Scheduling</title>
+    <link rel="stylesheet" href="frontPage.css">
+    <script src="dataAccessFrontPage.js"></script>    
+    <script src="businessLogicFrontPage.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="logoTask.jpeg" alt="Business Logo" class="logo">
+        </div>
+        <div class="right-column">
+            <div class="info-card">
+                <h1>Beauty Treatments</h1>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Location:</span>
+                        <span id="location" class="value">Karmiel</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Work Days:</span>
+                        <span id="workDays" class="value">Sunday-Friday: 10:00-17:00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Contact:</span>
+                        <span id="contact" class="value">0509007875</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Description:</span>
+                        <span id="description" class="value">We offer Facial Treatments using High-quality skincare and eco-friendly products</span>
+                    </div>
+                </div>
+                
+                <button id="loginButton" class="primary-button">Log in</button>
+                
+                <div class="review-section">
+                    <h2>Customer Reviews</h2>
+                    <textarea id="reviewTextarea" maxlength="300" placeholder="Leave a Review (max 3 lines)"></textarea>
+                    <button id="reviewButton" class="secondary-button">Send Review</button>
+                </div>
+                
+                <div class="photo-editor-section">
+                    <h2>Share Your Results</h2>
+                    <p>Are you an existing customer with before and after treatment results you want to share?</p>
+                    <iframe src="https://www.photopea.com" class="photo-editor"></iframe>
+                    <p class="editor-note">You can edit your images directly here and send us the results to the attached number!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
